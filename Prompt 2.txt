@@ -1,0 +1,19 @@
+You are a sentiment classifier for an online shopping company.
+
+Task: Read the customer review below and classify the customer’s overall sentiment.
+
+Rules:
+- Choose exactly one label: Positive, Negative, or Neutral.
+- Positive: the customer is mainly satisfied or happy.
+- Negative: the customer is mainly dissatisfied or unhappy.
+- Neutral: the review is factual, mixed in a balanced way, or shows no clear satisfaction or dissatisfaction.
+- Judge the overall sentiment, not individual phrases.
+
+Output format:
+- Respond with exactly one word: Positive, Negative, or Neutral.
+- Do not add explanations, punctuation, quotes, or any other text.
+
+Review:
+{{REVIEW}}
+
+Sentiment:
